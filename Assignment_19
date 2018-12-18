@@ -3,7 +3,10 @@ Ans: The three different stages to build the hypothesis or model in machine lear
         1. Model building
         2. Model testing
         3. Applying the model.
-     This is similar to a normal SDLC (Software development life cycle). Model building is the part where the model for particular                requirement is built it includes the processes of data preparation, training of algorithm, etc., model testing refers to the part          where the built model is tested and it's accuracy is calculated and finally Applying the model refers to the deployment of model in        production.
+     This is similar to a normal SDLC (Software development life cycle). Model building is the part where the model for particular
+     requirement is built it includes the processes of data preparation, training of algorithm, etc., model testing refers to the part
+     where the built model is tested and it's accuracy is calculated and finally Applying the model refers to the deployment of model in
+     production.
      
 2. What is the standard approach to supervised learning?
 Ans: For supervised learning the following approach is considered,
@@ -13,16 +16,20 @@ Ans: For supervised learning the following approach is considered,
            training set) are used. Also known as cross-validation.
            
 3. What is Training set and Test set?
-Ans: Training set: training set is a dataset used to train a model. In training the model, specific features are picked out from the              training set. These features are then incorporated into the model. Thereby, if the training set is labeled correctly, the model should      be able to learn something from these features.
+Ans: Training set: training set is a dataset used to train a model. In training the model, specific features are picked out from the
+     training set. These features are then incorporated into the model. Thereby, if the training set is labeled correctly, the model 
+     should be able to learn something from these features.
 
      Test set: The test set is a dataset used to measure how well the model performs at making predictions on that test set.
      
 4. What is the general principle of an ensemble method and what is bagging and boosting in ensemble method?
 Ans: Ensemble method: Several models are combined to build a predictive model to give more accurate output.
 
-     Bagging method: Bagging combines several models to form one ensemble model. A decision tree is formed on each of samples of the given        data An algorithm aggregates over decision tree to get most efficient predictor
+     Bagging method: Bagging combines several models to form one ensemble model. A decision tree is formed on each of samples of the 
+     given data An algorithm aggregates over decision tree to get most efficient predictor
 
-     Boosting method: It's an approach which combines weak learning rule to a strong learning rule. It combines several weak learning rules      to form a single strong learner iteratively.
+     Boosting method: It's an approach which combines weak learning rule to a strong learning rule. It combines several weak learning 
+     rules to form a single strong learner iteratively.
     
 5. How can you avoid overfitting ?
 Ans: Overfitting can be avoided by following methods,
